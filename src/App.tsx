@@ -1,22 +1,17 @@
-
-import './App.css'
+import { Routes, Route, Link } from 'react-router-dom';
+import Home from './pages/Home';
+import './App.css';
 
 function App() {
-
   return (
-    <div className="App">
+    <div className='App'>
       <h1>Useful Web Dev Resources</h1>
-      <div className="card">
-       
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <Routes>
+        <Route path='/' element={<Home />} />
+        {/* <Route path='about' element={<About />} /> */}
+      </Routes>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
