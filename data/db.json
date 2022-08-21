@@ -1,0 +1,29 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Axios vs. Fetch",
+      "author": "Faraz Kelhini",
+      "tags": [
+        "javascript",
+        "node",
+        "backend",
+        "REST"
+      ],
+      "url": "https://blog.logrocket.com/axios-vs-fetch-best-http-requests/",
+      "readingTime": "6 minutes"
+    },
+    {
+      "id": "2",
+      "title": "Making Sense of React Hooks",
+      "author": "Dan Abramov",
+      "tags": [
+        "react",
+        "javascript",
+        "hooks"
+      ],
+      "url": "https://dev.to/dan_abramov/making-sense-of-react-hooks-2eib",
+      "readingTime": "35 minutes"
+    }
+  ]
+}
