@@ -1,0 +1,18 @@
+.blog{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+
+ border: 1px solid darkslategrey;
+ border-radius: 5px;
+ padding: 0 6px;
+ min-height: 150px;
+}
+
+.blog h2{
+ margin:0;
+}
+
+.blog h3{
+ margin: 0;
+}
